@@ -9,7 +9,7 @@ async function getResponse(req: NextRequest): Promise<NextResponse> {
 
   if(idAsNumber === 3){
       return new NextResponse(`<!DOCTYPE html><html><head>
-    <title>This is frame 4</title>
+    <title>This is frame 3</title>
     <meta property="fc:frame" content="vNext" />
     <meta property="fc:frame:image" content="${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/Qma1TxJo8QbeA6Mgjkg3E7owbbTsRM2Cz816DLhzasgb1Z/3.png" />
     <meta property="fc:frame:button:1" content="Cosmic Cowboys" />
