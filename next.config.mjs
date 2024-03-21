@@ -4,7 +4,7 @@ const nextConfig = {
     async redirects(){
       return [
         {
-          source: '/cosmiccowboys',
+          source: '/CatWeb3',
           destination: 'https://cosmiccowboys.cloud',
           permanent: false
         },
